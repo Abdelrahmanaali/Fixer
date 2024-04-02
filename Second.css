@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+/* 
+font family 
+font size 
+font weight 
+text decoration
+text shadow 
+text-align  >> images >> p  >> buttons */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.home {
+    height: 100vh;
+    background-image: url(./images/full-2-800x640.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    opacity: 0.75;
+}
+
+.clr {
+    clear: both;
+}
+
+.about {
+
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.about-img {
+
+    width: 40%;
+    float: left;
+
+}
+
+.about-img img {
+    width: 100%;
+}
+
+.about-cap {
+    width: 50%;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    /* text properties */
+    text-align: center;
+    color: #686868;
+
+}
+
+.about-cap h2 {
+    color: black;
+}
+
+.about-cap p {
+    margin: 20px 0;
+
+}
+
+.about-list {
+    text-align: left;
+
+}
+
+.about-list ul li {
+    padding: 15px;
+}
+
+
+
+
+
+
+.container {
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+.title h2 {
+    text-align: center;
+    font-size: 45px;
+
+}
+
+.parent {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.container h3 {
+    align-items: center;
+}
+
+.child {
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.child img {
+    border-radius: 50%;
+    width: 100%;
+}
